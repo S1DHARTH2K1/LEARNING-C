@@ -1,5 +1,5 @@
-Chapter 1: The Heart of C – Pointers
-------------------------------------
+                              Chapter 1: The Heart of C – Pointers
+                              ------------------------------------
 
 Everything in system programming revolves around memory. Pointers are our way of working with memory directly
 
