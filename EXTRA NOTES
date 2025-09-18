@@ -1,0 +1,13 @@
+#include<stdio.h> - this is preprocessor directive
+stdio stands for standard input output 
+.h means header
+#include<stdio.h> is used to tell the c compiler to include the contents of stdio in the program(printf(), scanf(), fopen(), fclose())
+---------------------------------------------------
+
+int main() - function signature
+this is the entry point of C program
+int : return value is an integrer(like true or flase 0 or 1)
+main during compilation OS will look for main function and starts executing the code inside the curl braces
+return 0 is used for to know ending of the code. 0 means successfully complited
+----------------------------------------------------
+
