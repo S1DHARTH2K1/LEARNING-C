@@ -1,0 +1,39 @@
+Chapter 1: The Heart of C – Pointers
+------------------------------------
+
+Everything in system programming revolves around memory. Pointers are our way of working with memory directly
+
+What is a Pointer?
+A pointer is a variable whose value is the memory address of another variable.
+In C 
+# It doesn't hold the value 10; it holds the location in memory where 10 is stored.
+
+The Two Operators: & and *
+1. The "Address-of" Operator: &
+  When you put & in front of a variable name, it gives you the variable's memory address.
+2. The "Dereference" Operator: *
+  This operator does the opposite. When you have an address (stored in a pointer), you use * to go to that address and get the value stored there.
+--------------------------------------------------------
+In PROGRAM 1(hello.c)[Testing address-of operator'&' and Dereference operator '*']
+the output was like
+--- Let's inspect our variables ---
+The value of the variable 'num' is: 42
+The memory address of 'num' is: 0x7ffc1234abcd
+
+--- Let's inspect our pointer ---
+The value of the pointer 'ptr' is: 0x7ffc1234abcd
+The value AT THE ADDRESS the pointer is pointing to is: 42
+----------------------------------------------------------
+In PROGRAM 2(hello.c)[Testing my own way]
+The output was
+value of n is 16
+address of n is 0000002A881FFD44
+value of p is 0000002A881FFD44
+value at address p is 16
+----------------------------------------------------------
+
+In PROGRAM 3(TASK 1(hello.c))
+the output was 
+value of price is 99.95
+address of price is 000000FF1F3FFE74
+-----------------------------------------------------------
