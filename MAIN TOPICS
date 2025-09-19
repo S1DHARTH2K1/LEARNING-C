@@ -37,3 +37,15 @@ the output was
 value of price is 99.95
 address of price is 000000FF1F3FFE74
 -----------------------------------------------------------
+
+                              Chapter 2: Why POINTERS are so USEFUL[FUNCTIONS]
+                              ------------------------------------------------
+? Why do we need POINTERS?
+-> One of the use for pointers is to allow a function to modify a variable that was declared in a different function, By default, when you pass a variable to a function in C, you are only passing a copy of its value. This is called "pass-by-value". The original variable is not affected.
+
+In chapter2.c lets take a look at how it actually works,
+In PROGRAM 1
+we before and after calling a function my_score is same thats because we used pass by value
+but 
+In PROGRAM 2
+we used pass by reference, so we actually looking into the address of my_score and taking the value. So before and after calling th function we got different answer.
