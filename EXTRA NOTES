@@ -13,3 +13,10 @@ return 0 is used for to know ending of the code. 0 means successfully complited
 
 if we  use "float" or "double" datatypes in our code the input and output value may have tiny different like input was 99.95 the output will be like 99.949997
 ----------------------------------------------------
+
+Variables and Data Types
+int - 4bytes(size)
+float - 4
+double - 8
+char - 1
+----------------------------------------------------
